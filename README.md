@@ -1,4 +1,4 @@
-# MindEase — CBT-Based AI Mental Health Chatbot
+# MindEase  CBT-Based AI Mental Health Chatbot
 
 > *Your safe space to heal & grow* 💜
 
@@ -25,12 +25,12 @@ Most mental health chatbots feel scripted. MindEase was built to feel human.
 
 ## Features
 
-- 🧠 **Real-Time Emotion Detection** — Detects 6 emotional states: sadness, anxiety, anger, guilt, neutral, and crisis using a hybrid keyword + ML approach
-- 🚨 **Crisis Detection System** — Instantly detects self-harm and suicidal language and responds with Umang Pakistan helpline (0317-4288665)
-- 🌍 **Multilingual Support** — Automatically detects and replies in English, Urdu, or Roman Urdu
-- 💬 **CBT-Based Responses** — Every reply is grounded in Cognitive Behavioral Therapy techniques including thought reframing, validation, and behavioral activation
-- ⚡ **LLM Fallback Chain** — Tries multiple free OpenRouter models in sequence to ensure response availability
-- 🐳 **Dockerized Deployment** — Containerized and deployed on Hugging Face Spaces with always-on hosting
+- 🧠 **Real-Time Emotion Detection** → Detects 6 emotional states: sadness, anxiety, anger, guilt, neutral, and crisis using a hybrid keyword + ML approach
+- 🚨 **Crisis Detection System** → Instantly detects self-harm and suicidal language and responds with Umang Pakistan helpline (0317-4288665)
+- 🌍 **Multilingual Support** → Automatically detects and replies in English, Urdu, or Roman Urdu
+- 💬 **CBT-Based Responses** → Every reply is grounded in Cognitive Behavioral Therapy techniques including thought reframing, validation, and behavioral activation
+- ⚡ **LLM Fallback Chain** → Tries multiple free OpenRouter models in sequence to ensure response availability
+- 🐳 **Dockerized Deployment** → Containerized and deployed on Hugging Face Spaces with always-on hosting
 
 ---
 
@@ -79,13 +79,13 @@ Return Reply + Detected Emotion to Frontend
 
 The system uses a **hybrid two-step approach**:
 
-**Step 1 — Keyword Matching (Primary)**
+**Step 1  Keyword Matching (Primary)**
 - Priority-ordered dictionary covers 6 emotion categories
 - Handles Roman Urdu phrases like `udaas`, `ghabra`, `gussa`, `pareshan`
 - Multi-word phrase matching + regex word boundary detection
 - Neutral greetings are caught first to prevent false positives
 
-**Step 2 — ML Model (Fallback)**
+**Step 2  ML Model (Fallback)**
 - Model: `j-hartmann/emotion-english-distilroberta-base`
 - Only trusted when confidence score > 0.75
 - Maps `fear → anxiety` and `disgust → anger`
@@ -167,21 +167,8 @@ The app is containerized using **Docker** and deployed on **Hugging Face Spaces*
 
 ## What This Project Taught Me
 
-- Prompt engineering is a real skill. Making AI feel human takes 100 iterations, not 10.
-- The best projects are built for people, not portfolios.
-- Getting the tone right for crisis detection is the hardest part — one wrong response can break trust completely.
-- CBT principles translate surprisingly well into prompt structure.
+→ Prompt engineering is a real skill. Making AI feel human takes 100 iterations, not 10.
+→ The best projects are built for people, not portfolios.
+→ Getting the tone right for crisis detection is the hardest part one wrong response can break trust completely.
+→ CBT principles translate surprisingly well into prompt structure.
 
----
-
-## Disclaimer
-
-MindEase is an AI assistant and is **not a replacement for professional mental health care**.
-If you are in crisis, please contact a licensed professional or helpline immediately.
-
-🇵🇰 **Umang Pakistan:** 0317-4288665 (24/7)
-🌍 **Befrienders Worldwide:** www.befrienders.org
-
----
-
-*Built with 💜 by [Fouzia Khan](https://github.com/Iamfouzia)*
