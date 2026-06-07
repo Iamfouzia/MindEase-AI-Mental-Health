@@ -168,7 +168,10 @@ The app is containerized using **Docker** and deployed on **Hugging Face Spaces*
 ## What This Project Taught Me
 
 → Prompt engineering is a real skill. Making AI feel human takes 100 iterations, not 10.
+
 → The best projects are built for people, not portfolios.
+
 → Getting the tone right for crisis detection is the hardest part one wrong response can break trust completely.
+
 → CBT principles translate surprisingly well into prompt structure.
 
