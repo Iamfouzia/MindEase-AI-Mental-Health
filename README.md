@@ -21,6 +21,7 @@ Most mental health chatbots feel scripted. MindEase was built to feel human.
 
 🔗 [https://huggingface.co/spaces/foziakahn/MindEase-Mental-Health](https://huggingface.co/spaces/foziakahn/MindEase-Mental-Health)
 
+🎥 [Demo Video](https://github.com/user-attachments/assets/1f548f8d-9914-4d83-8719-cdc9120d16b1)
 ---
 
 ## Features
