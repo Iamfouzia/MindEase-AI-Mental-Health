@@ -185,15 +185,10 @@ The app is containerized using **Docker** and deployed on **Hugging Face Spaces*
 
 ## Screenshots
 <img width="1920" height="772" alt="cbt5" src="https://github.com/user-attachments/assets/29fa49c9-322c-4360-ad76-41e9fc9799ef" />
-
 <img width="1920" height="765" alt="cbt2" src="https://github.com/user-attachments/assets/a4739e8d-283e-4d76-bf44-e96263ec6cd9" />
-
 <img width="1896" height="742" alt="cbt3" src="https://github.com/user-attachments/assets/2e824e19-3a27-4f73-881d-36642e022ac1" />
-
 <img width="1889" height="751" alt="cbt(1338)" src="https://github.com/user-attachments/assets/79fd93ee-2f3f-420d-8495-f128af5406ab" />
-
 <img width="1910" height="741" alt="cbt" src="https://github.com/user-attachments/assets/dc46e588-bcb6-46e8-8502-d9fd5db88835" />
-
 <img width="1920" height="762" alt="cbt22" src="https://github.com/user-attachments/assets/de64409e-40cc-4ca7-b3ec-a0048c583784" />
 
 
